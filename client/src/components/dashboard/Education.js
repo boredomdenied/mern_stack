@@ -36,7 +36,7 @@ class Education extends Component {
       <div>
         <h4 className="mb-4">Education Credentials</h4>
         <table className="table">
-          <thread>
+          <thead>
             <tr>
               <th>School</th>
               <th>Degree</th>
@@ -44,7 +44,7 @@ class Education extends Component {
               <th />
             </tr>
             {education}
-          </thread>
+          </thead>
         </table>
       </div>
     );
